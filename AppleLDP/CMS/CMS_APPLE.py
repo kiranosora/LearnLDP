@@ -22,7 +22,7 @@ print("h1:{}  h2:{}".format(loop_shift(candidates,1), loop_shift(candidates, 2))
 
 def random_flip(x, prob):
     if np.random.uniform(0, 1) < prob:
-        return -1 if x == 1 else -1
+        return -1 if x == 1 else 1
     return x
 
 
